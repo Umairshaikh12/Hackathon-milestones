@@ -1,0 +1,184 @@
+ .parent-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;   
+}
+
+
+
+
+ .leftside {
+    height: 1100px;
+    width: 300px;
+    background-color:darkslateblue;
+ }
+
+ .dp{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100px;
+    background-image: url(profile\ pic.jpeg);
+    display: flex;
+    background-size: cover;
+    margin-left: 45px;
+ }
+
+ 
+ .con{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom: 2px solid;
+ }
+
+ .con-logo{
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: larger;
+}
+.con-logo span{
+   margin-left: 10px;
+}
+
+.email-logo{
+   display: flex;
+   justify-content: center;
+   color: white;
+   margin-top: 20px;
+   font-size: larger;
+}
+.email-logo span{
+   margin-left: 10px;
+   color: white;
+}
+
+.link-logo{
+   display: flex;
+   justify-content: center;
+   color: white;
+   margin-top: 20px;
+   font-size: larger;
+
+}
+
+.link-logo span{
+   margin-left: 10px;
+
+}
+
+.link-logo a{
+   color: white;
+   text-decoration: none;
+   margin-left: 10px;
+}
+
+.loc-logo{
+   display: flex;
+   justify-content: center;
+   color: white;
+   margin-top: 20px;
+   font-size: larger;
+}
+
+.loc-logo span{
+   margin-left: 10px;
+}
+
+
+.lan{
+   display: flex;
+   justify-content: center;
+   color: white;
+   border-bottom: 2px solid;
+   margin-top: 100px;
+
+}
+
+.lang{
+   color: white;
+   display: flex;
+   margin-left: 60px;
+   font-size: larger;
+}
+
+
+.sk{
+   display: flex;
+   justify-content: center;
+   color: white;
+   border-bottom: 2px solid;
+   margin-top: 100px;
+}
+
+.skls{
+   color: white;
+   display: flex;
+   justify-content: center;
+
+}
+
+/* right-side */
+
+.right-side{
+   height: 1100px;
+   width: 800px;
+   background-color:lavender;
+ 
+}
+
+.um{
+   display: flex;
+   justify-content: center;
+
+}
+
+.front{
+   display: flex;
+   justify-content: center;
+
+
+}
+
+.p{
+   margin-left: 30px;
+   font-size: large;
+}
+
+
+.edu{
+   margin-left: 30px;
+   font-size: large;
+ 
+}
+
+.edu p{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.duration{
+   margin-left: 400px;
+}
+
+.pe{
+   margin-left: 30px;
+   font-size: large;
+}
+
+.pee{
+   margin-left: 30px;
+   font-size: large;
+}
+
+.skills{
+   display: block;
+}
+
+#toggle-skills{
+   margin-left: 30px;
+   margin-top: 20px;
+   font-size: large;
+}
